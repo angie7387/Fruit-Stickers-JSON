@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Song Hay \"Double Happiness",
+    "image": "DoubleHappiness.png",
+    "type": "Navel Oranges",
+    "place": "California, USA"
+  },
+  {
+    "name": "The Wonderful Company \"Halos",
+    "image": "Halos.png",
+    "type": "Mandarins",
+    "place": "California, USA"
+  },
+  {
+    "name": "Agrolíbano's \"Mike's Melons",
+    "image": "mikesmelons.png",
+    "type": "Cantaloupe",
+    "place": "Honduras"
+  },
+  {
+    "name": "Brooks Tropicals' \"SlimCado",
+    "image": "SlimCado.png",
+    "type": "Florida Avocado",
+    "place": "Dominican Republic"
+  },
+  {
+    "name": "Bella Mexicana",
+    "image": "bella.png",
+    "type": "Mango",
+    "place": "Mexico"
+
+  },
+  {
+    "name": "Don Cuero",
+    "image": "doncuero.png",
+    "type": "Spaghetti Squash",
+    "place": "Mexico"
+  },
+  {
+    "name": "Sweet Amaris",
+    "image": "sweetamaris.png",
+    "type": "Seedless Watermelons",
+    "place": "Mexico"
+  },
+  {
+    "name": "4 Boys Acorn Squash",
+    "image": "4boysacorn.png",
+    "type": "Acorn Squash",
+    "place": "Mexico"
+  },
+  {
+    "name": "Little Chuy's Minis",
+    "image": "minichuy.png",
+    "type": "Mini Seedless Watermelon",
+    "place": "Mexico"
+  },
+  {
+    "name": "Big Chuy's Seedless Watermelon",
+    "image": "bigchuy.png",
+    "type": "Seedless Watermelon",
+    "place": "Mexico"
+  },
+  {
+    "name": "SunFed's \"Perfect Eggplant",
+    "image": "perfecteggplant.png",
+    "type": "Eggplant",
+    "place": "Arizona, USA"
+  },
+  {
+    "name": "Bollo's \"Extra Sweet Canary Melon",
+    "image": "bollo.png",
+    "type": "Canary Melon",
+    "place": "Spain"
+  },
+  {
+    "name": "Seedless Watermelon",
+    "image": "seedlesswatermeln.png",
+    "type": "Seedless Watermelon",
+    "place": "USA"
+  },
+  {
+    "name": "Can-AM Pepper Company",
+    "image": "spaghetti.png",
+    "type": "Spaghetti Squash",
+    "place": "Canada"
+  },
+  {
+    "name": "Little Bear Produce",
+    "image": "minimelon.png",
+    "type": "Mini Seedless Watermelons",
+    "place": "Mexico"
+  },
+  {
+    "name": "Nansui Pear",
+    "image": "nansui.png",
+    "type": "Nansui Pear/南水梨 (in Mandarin)",
+    "place": "PRC (People's Republic of China/China)"
+  },
+  {
+    "name": "Luo Chan (洛川)",
+    "image": "san.png",
+    "type": "Fuji Apple",
+    "place": "China"
+  },
+  {
+    "name": "Melão Mossorō",
+    "image": "elaoMossoro.png",
+    "type": "Mata Fresca Melon",
+    "place": "Brazil"
+  },
+  
+  {
+    "name": "4Boys' \"Kaboucha Squash",
+    "image": "4boys.png",
+    "type": "Kabocha Squash",
+    "place": "Mexico"
+  },
+  {
+    "name": "Orri Farms",
+    "image": "Orri.png",
+    "type": "Orange",
+    "place": "Israel"
+  }
+]

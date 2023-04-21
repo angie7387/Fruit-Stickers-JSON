@@ -1,0 +1,168 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+body {
+	font-family: serif;
+	font-size:12px;
+    color: #0c250c;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	overflow: hidden;
+}
+
+h1 {
+	font-size:18px;
+	text-align:center;
+}
+
+h2 {
+	font-size:12px;
+	text-align:center;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 400px;
+    background-color: #fff;
+    color: #444;
+    margin-bottom: -50px;
+  }
+  .a {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .b {
+    grid-column: 2 / 3 ;
+    grid-row: 1 / 3;
+  }
+  .c {
+    grid-column: 3 / 3 ;
+    grid-row: 1 ;
+    text-align: right;
+
+  }
+  .d {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+
+h3 {
+	font-size:18px;
+	text-align:center;
+
+}
+
+#collection {
+	display: flex;
+	justify-content: left;
+	overflow: auto;
+	margin-left: -10px;
+	margin-right: -10px;
+	border: 1px solid black;
+}
+
+p {
+	font-size:12px;
+	text-align:center;
+
+}	
+.indifferent {
+	padding: 10px;
+}
+
+.dot-container{
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.activity-title{
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+	color: white;
+	font-size: 1rem;
+	display: none;
+}
+
+.dot-container:hover .activity-title{
+	display: block;
+}
+
+.sticker {
+	background: white;
+	margin: 4px;
+    height: 300px;
+    width: 200px;
+
+}
+
+.grid { 
+    position: relative;
+}
+
+.item {
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.item.muuri-item-dragging {
+    z-index: 3;
+}
+
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
+.item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #ffff;
+    background: #59687d;
+    font-size: 40px;
+    text-align: center;
+}
+
+.item.muuri-item-dragging .item-content {
+background: red;
+}
+
+.item.muuri-item-releasing {
+background: green;
+}
+
+img {
+	
+	margin-top:10px;
+	margin-bottom:-10px;
+	width: 100px;
+}
+
+.hidden {display:none;}
+
+button {
+  font-size: 15pt;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
