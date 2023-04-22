@@ -58,15 +58,15 @@ function renderItems(collection) {
                   <div class="data-container">
                       <div class="data-point" style="left: ${item.leftPosition};"></div>
                       <div class="data-details">
-                                                <img src="${item.image}">
-
+                          <img src="${item.image}">
                           <h1>${item.name}</h1>
-                          <h2>${item.type}</h2>
-                          <p><em>Place: ${item.place}</p>
+                          <h2><em>${item.type}<br>
+                          <em> ${item.place}</h2>
                   
                       </div>
                   </div>
               `;
+      
   
       listItem.insertAdjacentHTML("beforeend", itemDetails); // Which can we then insert
   
@@ -95,26 +95,6 @@ function renderItems(collection) {
     });
   
 
-    function zoomin(){
-      var myImg = document.getElementsByClassName("item");
-      var currWidth = myImg.clientWidth;
-      if(currWidth >= 1000){
-          alert("You’re fully zoomed in!");
-      } else{
-          myImg.style.width = (currWidth + 100) + "px";
-      } 
-  }
-
-  function zoomout(){
-    var myImg = document.getElementsByClassName("item");
-    var currWidth = myImg.clientWidth;
-    if(currWidth >= 50){
-        alert("That’s as small as it gets.");
-    } else{
-        myImg.style.width = (currWidth - 100) + "px";
-    }
-}
-
 window.addEventListener('load', function() {
   document.querySelector('input[type="file"]').addEventListener('change', function() {
       if (this.files && this.files[0]) {
@@ -131,3 +111,8 @@ window.addEventListener('load', function() {
 function change() {
 	document.getElementById("text").style.display = "none"; }
   
+function change(img) {
+  img.classList.toggle("fullsize")
+
+}
+

@@ -1,24 +1,24 @@
 [
   {
-    "name": "Song Hay \"Double Happiness",
+    "name": "Song Hay Double Happiness",
     "image": "DoubleHappiness.png",
     "type": "Navel Oranges",
     "place": "California, USA"
   },
   {
-    "name": "The Wonderful Company \"Halos",
+    "name": "The Wonderful Company Halos",
     "image": "Halos.png",
     "type": "Mandarins",
     "place": "California, USA"
   },
   {
-    "name": "Agrolíbano's \"Mike's Melons",
+    "name": "Agrolíbano's Mike's Melons",
     "image": "mikesmelons.png",
     "type": "Cantaloupe",
     "place": "Honduras"
   },
   {
-    "name": "Brooks Tropicals' \"SlimCado",
+    "name": "Brooks Tropicals'SlimCado",
     "image": "SlimCado.png",
     "type": "Florida Avocado",
     "place": "Dominican Republic"
@@ -93,8 +93,8 @@
   {
     "name": "Nansui Pear",
     "image": "nansui.png",
-    "type": "Nansui Pear/南水梨 (in Mandarin)",
-    "place": "PRC (People's Republic of China/China)"
+    "type": "Nansui Pear",
+    "place": "China"
   },
   {
     "name": "Luo Chan (洛川)",
