@@ -111,8 +111,5 @@ window.addEventListener('load', function() {
 function change() {
 	document.getElementById("text").style.display = "none"; }
   
-  function change(img) {
-    img.classList.toggle("fullsize")
-  
-  }
+
 

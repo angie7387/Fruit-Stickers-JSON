@@ -18,7 +18,7 @@
     "place": "Honduras"
   },
   {
-    "name": "Brooks Tropicals'SlimCado",
+    "name": "Slimcado",
     "image": "SlimCado.png",
     "type": "Florida Avocado",
     "place": "Dominican Republic"
@@ -61,13 +61,13 @@
     "place": "Mexico"
   },
   {
-    "name": "SunFed's \"Perfect Eggplant",
+    "name": "SunFed's Perfect Eggplant",
     "image": "perfecteggplant.png",
     "type": "Eggplant",
     "place": "Arizona, USA"
   },
   {
-    "name": "Bollo's \"Extra Sweet Canary Melon",
+    "name": "Bollo's Extra Sweet Canary Melon",
     "image": "bollo.png",
     "type": "Canary Melon",
     "place": "Spain"
@@ -110,7 +110,7 @@
   },
   
   {
-    "name": "4Boys' \"Kaboucha Squash",
+    "name": "4Boys' Kaboucha Squash",
     "image": "4boys.png",
     "type": "Kabocha Squash",
     "place": "Mexico"
