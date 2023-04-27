@@ -1,4 +1,36 @@
 /* Just to make the demo easier to work with. */
+@media screen and (max-width:60em) and (min-width:20em){
+body {
+}
+
+.c {
+  text-align: right;
+  margin-left: -20em;
+  font-size: 24px;
+
+}
+
+.a {
+  font-size: 24px;
+}
+
+.b {
+  font-size: 24px;
+
+}
+.data-container {
+      height: 200px;
+    position: relative;
+    padding: 50px;
+    font-size: 5px;
+    text-align: left;
+    scale: 120%;
+    width: 100px;
+}
+
+
+}
+
 
 :root {
 	--spacing: 1em;
@@ -38,7 +70,7 @@ h2 {
 
 .wrapper {
     display: grid;
-    grid-gap: 400px;
+    grid-gap: 200px;
     background-color: #fff;
     color: #black;
     margin-bottom: -200px;
@@ -50,12 +82,15 @@ h2 {
   .b {
     grid-column: 2 / 3 ;
     grid-row: 1;
+    text-align: center;
+
 
   }
   .c {
     grid-column: 3 / 3 ;
     grid-row: 1 ;
     text-align: right;
+    position: relative;
   }
 
 h3 {
@@ -117,7 +152,6 @@ p {
 .data-container {
   height: 275px;
   position: relative;
-  border: 1px black solid;
   padding: 10px;
   text-align: left;
   margin: -10px;
@@ -194,11 +228,7 @@ img {
 }
 
 .fullsize {
-  scale: 100%;
-}
-
-.fullsize {
-  scale: 210%;
+  scale: 190%;
   font-size: 5px;
 
 }
@@ -207,11 +237,15 @@ img {
 .fullsize .data-container {
   height: 150px;
   position: relative;
-  border: .5px black solid;
-  padding: 10px;
+  padding: 20px;
   font-size: 5px;
   text-align: left;
   margin: -11px;
+  margin-top: 50px;
+}
+
+.fullsize .sticker {
+  background: none;
 }
 
 .fullsize h1 {

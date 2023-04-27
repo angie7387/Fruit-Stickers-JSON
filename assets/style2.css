@@ -1,4 +1,35 @@
 /* Just to make the demo easier to work with. */
+@media screen and (max-width:60em) and (min-width:20em){
+  body {
+  }
+  
+  .c {
+    text-align: right;
+    margin-left: -20em;
+    font-size: 24px;
+  
+  }
+  
+  .a {
+    font-size: 24px;
+  }
+  
+  .b {
+    font-size: 24px;
+  
+  }
+  .data-container {
+        height: 200px;
+      position: relative;
+      padding: 50px;
+      font-size: 5px;
+      text-align: left;
+      scale: 120%;
+      width: 100px;
+  }
+  
+  
+  }
 
 :root {
 	--spacing: 1em;
@@ -31,7 +62,16 @@ h4 {
 
 .wrapper {
     display: grid;
-    grid-gap: 400px;
+    grid-gap: 200px;
+    background-color: #fff;
+    color: #444;
+    margin-bottom: -200px;
+  }
+
+  .wrapper2 {
+    display: grid;
+    margin-top: 200px;
+    grid-gap: 200px;
     background-color: #fff;
     color: #444;
     margin-bottom: -200px;
